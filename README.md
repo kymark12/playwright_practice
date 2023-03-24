@@ -10,7 +10,11 @@ A sample automation project using Playwright-Python
 ```
 pip install -r requirements.txt
 ```
-3. Run the tests using 
+3. Install the required browsers via playwright
+```
+playwright install
+```
+4. Run the tests using 
 ```
 pytest
 ```

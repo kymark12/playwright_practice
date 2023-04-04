@@ -1,4 +1,4 @@
-from playwright.sync_api import Playwright, sync_playwright
+from playwright.sync_api import Playwright
 from pom.login import LoginPage
 
 """
@@ -19,5 +19,5 @@ def test_login_successfully(playwright: Playwright):
                      password="learning")
 
 
-with sync_playwright() as playwright:
-    test_login_successfully(playwright)
+# with sync_playwright() as playwright:
+#     test_login_successfully(playwright)

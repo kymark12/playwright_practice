@@ -19,4 +19,3 @@ class LoginPage:
         self.password_field.fill(password)
         self.terms_and_condition.click()
         self.sign_in_button.click()
-
